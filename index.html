@@ -440,7 +440,7 @@
                         >
                           <h5>Expense Tracker</h5>
                           <h6>
-                            A JavaScript Expense tracker with localstorage and
+                            A JavaScript Expense tracker with local storage and
                             responsive design.
                           </h6>
                           <i class="fa fa-external-link fa-2x"></i
@@ -463,8 +463,8 @@
                         >
                           <h5>Sword Hammer Shield!</h5>
                           <h6>
-                            A playful take on the classic rock papper scissors
-                            game. Vanilla javascript, CSS and HTML
+                            A playful take on the classic rock paper scissors
+                            game. Vanilla javascript, CSS and HTML.
                           </h6>
                           <i class="fa fa-external-link fa-2x"></i
                         ></a>
@@ -493,7 +493,14 @@
           </div>
         </div>
         <div class="row contactForm">
-          <form name="sentMessage" id="contactForm" novalidate>
+          <form
+            action="https://formsubmit.co/mcdonald.duane13@gmail.com"
+            method="POST"
+            name="sentMessage"
+            id="contactForm"
+            //novalidate
+          >
+            >
             <div class="control-group">
               <div class="controls">
                 <input
@@ -501,6 +508,7 @@
                   class="form-control"
                   placeholder="Full Name"
                   id="name"
+                  name="name"
                   required
                   data-validation-required-message="Please enter your name"
                 />
@@ -514,6 +522,7 @@
                   class="form-control"
                   placeholder="Email"
                   id="email"
+                  name="email"
                   required
                   data-validation-required-message="Please enter your email"
                 />
@@ -528,6 +537,7 @@
                   class="form-control"
                   placeholder="Message"
                   id="message"
+                  name="message"
                   required
                   data-validation-required-message="Please enter your message"
                   minlength="5"
@@ -560,21 +570,18 @@
     </footer>
     <a href="#top" class="topHome"><i class="fa fa-chevron-up fa-2x"></i></a>
 
-    <script src="js/modernizr-latest.js"></script>
-    <script src="js/jquery-1.8.2.min.js" type="text/javascript"></script>
-    <script src="js/bootstrap.min.js" type="text/javascript"></script>
-    <script src="js/jquery.isotope.min.js" type="text/javascript"></script>
+    <script src="js/modernizr-latest.js" defer></script>
+    <script src="js/jquery-1.8.2.min.js" defer type="text/javascript"></script>
+    <script src="js/bootstrap.min.js" defer type="text/javascript"></script>
     <script
-      src="js/fancybox/jquery.fancybox.pack.js"
+      src="js/jquery.isotope.min.js"
+      defer
       type="text/javascript"
     ></script>
-    <script src="js/jquery.nav.js" type="text/javascript"></script>
-    <script src="js/jquery.cslider.js" type="text/javascript"></script>
-    <script src="js/jquery.diagram.js"></script>
-    <script src="contact/jqBootstrapValidation.js"></script>
-    <script src="contact/contact_me.js"></script>
+    <script src="js/jquery.nav.js" type="text/javascript" defer></script>
+    <script src="contact/jqBootstrapValidation.js" defer></script>
+    <!-- <script src="contact/contact_me.js" defer></script> -->
 
-    <script src="js/custom.js" type="text/javascript"></script>
-    <script src="js/owl-carousel/owl.carousel.js"></script>
+    <script src="js/custom.js" defer type="text/javascript"></script>
   </body>
 </html>
