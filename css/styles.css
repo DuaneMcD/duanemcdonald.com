@@ -123,6 +123,7 @@ a:hover {
 }
 .form-control {
   border-radius: 0px;
+  margin: 10px;
 }
 .mrgn30 {
   margin: 30px 0;
